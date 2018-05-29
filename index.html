@@ -23,11 +23,11 @@
 <link rel="stylesheet" href="assets/css/styles.css" />
 
 <!-- CSS Base -->
-<link id="theme" rel="stylesheet" href="assets/css/themes/theme-classic.css" />
+<link id="theme" rel="stylesheet" href="assets/css/themes/theme-investments.css" />
 
 </head>
 
-<body class="header-absolute">
+<body>
 
 <!-- Loader -->
 <div id="page-loader"><svg class="loader-1" width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><circle class="circle-1" fill="none" stroke-width="2" stroke-linecap="round" cx="16" cy="16" r="15"></circle><circle class="circle-2" fill="none" stroke-width="2" stroke-linecap="round" cx="16" cy="16" r="15"></circle></svg></div>
@@ -37,8 +37,23 @@
 <div id="body-wrapper">
 
     <!-- Header -->
-    <header id="header" class="absolute fullwidth light">
+    <header id="header" class="fullwidth light">
+
+        <!-- Top Bar -->
+        <div id="top-bar" class="bg-dark dark">
+            <div class="module left">
+                Welcome on <strong>Zysk</strong>!
+            </div>
+            <div class="module right">
+                <ul class="list-inline">
+                    <li><i class="i-before ti-time text-primary"></i>Mon - Fri 8:00 - 17:00</li>
+                    <li><i class="i-before ti-email text-primary"></i><a href="#">hello@example.com</a></li>
+                    <li><i class="i-before ti-mobile text-primary"></i>+48 22 212-32-21</li>
+                </ul>
+            </div>
+        </div>
         
+        <!-- Nav Bar -->
         <div id="nav-bar">
             <div class="row">
                 <div class="col-sm-2 col-xs-5">
@@ -260,59 +275,100 @@
     <div id="content">
 
         <!-- Section -->
-        <section id="intro" class="fullheight">
+        <section id="intro" class="cover carousel inner-controls intro-slider dark" data-single-item data-pagination data-navigation data-local-scroll>
 
-            <div class="bg-slideshow">
-                <div class="bg-image"><img src="assets/img/photos/consumer_bg01.jpg" alt=""></div>
-                <div class="bg-image"><img src="assets/img/photos/consumer_bg04.jpg" alt=""></div> 
-                <div class="bg-image"><img src="assets/img/photos/consumer_bg05.jpg" alt=""></div>     
-            </div>
+            <!-- Slide Section -->
+            <div class="section section-image-edge h-lg bg-dark">
 
-            <div class="container v-center" data-local-scroll>
-                <div class="row">
-                    <div class="col-lg-6 col-md-8">
-                        <a href="#" class="btn-play btn-lg mb-50 animated" data-animation="fadeInDown" data-toggle="video-modal" data-target="#modalVideo" data-video="https://www.youtube.com/embed/uVju5--RqtY"></a>
-                        <h1>We will <em>take care</em> about your finances... </h1>
-                        <a href="#services" class="btn btn-primary">Go to our services</a>
+                <!-- BG Image -->
+                <div class="bg-image layer layer-zoomOutBg"><img src="assets/img/photos/investments_bg01.jpg" alt=""></div>
+
+                <!-- Content -->
+                <div class="content container v-center">
+                    <div class="col-md-6 layer layer-fadeInRight">
+                        <h5 class="text-muted">Web Startups</h5>
+                        <h1>Our <em>web startups</em> rock the Internet!</h1>
+                        <a href="#services" class="btn btn-primary">Read more</a>
                     </div>
                 </div>
+
+                <!-- Image -->
+                <div class="image bottom col-md-5 col-md-push-6 layer layer-fadeInUp">
+                    <img src="assets/img/photos/investments_photo01.png" alt="">
+                </div>
+
             </div>
-            
+
+            <!-- Slide Section -->
+            <div class="section section-image-edge h-lg bg-dark">
+
+                <!-- BG Image -->
+                <div class="bg-image layer layer-zoomOutBg"><img src="assets/img/photos/investments_bg03.jpg" alt=""></div>
+
+                <!-- Content -->
+                <div class="content container v-center">
+                    <div class="col-md-6 col-md-push-6 layer layer-fadeInRight">
+                        <h5 class="text-muted">Mobile Apps</h5>
+                        <h1><em>The best</em> apps on the market!</h1>
+                        <a href="#services" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+
+                <!-- Image -->
+                <div class="image bottom col-md-5 col-md-push-1 layer layer-fadeInUp">
+                    <img src="assets/img/photos/investments_photo02.png" alt="">
+                </div>
+
+            </div>
+
+            <!-- Slide Section -->
+            <div class="section h-lg bg-dark">
+
+                <!-- BG Image -->
+                <div class="bg-image layer layer-zoomOutBg"><img src="assets/img/photos/investments_bg02.jpg" alt=""></div>
+
+                <!-- Content -->
+                <div class="content container text-center v-center">
+                    <div class="row layer layer-fadeInUp">
+                        <div class="col-md-8 col-md-push-2">
+                            <h5 class="text-muted">...much more</h5>
+                            <h1>Let's check our <em>full offer</em>!</h1>
+                            <a href="#services" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </section>
 
         <!-- Section -->
-        <section id="services" class="bg-primary dark">
+        <section id="services" class="cover protrude pull-up-40">
             
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
                         <!-- Feature -->
-                        <div class="feature feature-2">
-                            <span class="icon icon-default"><i class="pe-7s-display1"></i></span>
-                            <div class="feature-content">
-                                <h5>Financial advising</h5>
-                                <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                            </div>
+                        <div class="feature feature-1 boxed bg-white animated" data-animation="fadeInUp">
+                            <span class="icon icon-default"><i class="pe-7s-graph1"></i></span>
+                            <h5>Web Startups</h5>
+                            <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <!-- Feature -->
-                        <div class="feature feature-2">
-                            <span class="icon icon-default"><i class="pe-7s-diamond"></i></span>
-                            <div class="feature-content">
-                                <h5>Stock Investments</h5>
-                                <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                            </div>
+                        <div class="feature feature-1 boxed bg-white animated" data-animation="fadeInUp" data-animation-delay="200">
+                            <span class="icon icon-default"><i class="pe-7s-phone"></i></span>
+                            <h5>Mobile Apps</h5>
+                            <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <!-- Feature -->
-                        <div class="feature feature-2">
-                            <span class="icon icon-default"><i class="pe-7s-like"></i></span>
-                            <div class="feature-content">
-                                <h5>Health Insurance</h5>
-                                <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                            </div>
+                        <div class="feature feature-1 boxed bg-dark dark animated" data-animation="fadeInUp" data-animation-delay="400">
+                            <span class="icon icon-primary"><i class="pe-7s-diamond"></i></span>
+                            <h5>and much more!</h5>
+                            <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
                         </div>
                     </div>
                 </div>
@@ -322,267 +378,111 @@
 
         <!-- Section -->
         <section id="about" class="section-bg-edge right">
-            
-            <div class="image col-md-8 col-md-push-4">
-                <div class="bg-image"><img src="assets/img/photos/consumer_bg02.jpg" alt=""></div>
-            </div>
 
-            <div class="container">
-                <div class="col-md-6">
-                    <h4 class="mb-60">Who we are?</h4>
-                    <p class="lead text-muted mb-50">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie, urna turpis tempor elit, in congue tellus lacus eget enim.</p>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <!-- Feature -->
-                            <div class="feature feature-1 animated" data-animation="fadeIn">
-                                <span class="icon icon-primary icon-sm"><i class="pe-7s-display1"></i></span>
-                                <h6>Financial advising</h6>
-                            </div>
-                            <!-- Feature -->
-                            <div class="feature feature-1 animated" data-animation="fadeIn" data-animation-delay="100">
-                                <span class="icon icon-primary icon-sm"><i class="pe-7s-diamond"></i></span>
-                                <h6>Stock Investments</h6>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <!-- Feature -->
-                            <div class="feature feature-1 animated" data-animation="fadeIn" data-animation-delay="200">
-                                <span class="icon icon-primary icon-sm"><i class="pe-7s-like"></i></span>
-                                <h6>Health Insurance</h6>
-                            </div>
-                            <!-- Feature -->
-                            <div class="feature feature-1 animated" data-animation="fadeIn" data-animation-delay="300">
-                                <span class="icon icon-primary icon-sm"><i class="pe-7s-graph"></i></span>
-                                <h6>Forex Investments</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- Section -->
-        <section id="services-other" class="bg-grey">
-            
-            <div class="container">
-                <h4 class="text-center mb-60">Other services...</h4>
-                <div class="row">
-                    <div class="col-md-4">
-                        <!-- Feature -->
-                        <div class="feature feature-2">
-                            <span class="icon icon-secondary"><i class="pe-7s-graph"></i></span>
-                            <div class="feature-content">
-                                <h5>Forex Investments</h5>
-                                <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <!-- Feature -->
-                        <div class="feature feature-2">
-                            <span class="icon icon-secondary"><i class="pe-7s-cash"></i></span>
-                            <div class="feature-content">
-                                <h5>Accountancy</h5>
-                                <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <!-- Feature -->
-                        <div class="feature feature-2">
-                            <span class="icon icon-secondary"><i class="pe-7s-wallet"></i></span>
-                            <div class="feature-content">
-                                <h5>Credit</h5>
-                                <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- Section -->
-        <section id="team">
-            
-            <div class="container">
-                <h4 class="text-center mb-60">Meet our advisors</h4>
+            <div class="relative container pt-80">
+                <h4 class="text-center mb-40">About Us</h4>
 
                 <nav class="text-center">
                     <!-- Nav tabs -->
                     <ul class="nav nav-pills mb-60" role="tablist">
-                        <li class="active"><a href="#membersAdvising" role="tab" data-toggle="tab"><i class="pe-7s-display1"></i>Finance Advising</a></li>
-                        <li><a href="#membersInvestments" role="tab" data-toggle="tab"><i class="pe-7s-graph"></i>Investments</a></li>
-                        <li><a href="#membersOthers" role="tab" data-toggle="tab"><i class="pe-7s-more"></i>Others</a></li>
+                        <li class="active"><a href="#whoWeAre" role="tab" data-toggle="tab"><i class="pe-7s-news-paper"></i>Who we are?</a></li>
+                        <li><a href="#ourHistory" role="tab" data-toggle="tab"><i class="pe-7s-date"></i>Our History</a></li>
+                        <li><a href="#ourMission" role="tab" data-toggle="tab"><i class="pe-7s-graph1"></i>Our Mission</a></li>
                     </ul>
                 </nav>
-                
-                <!-- Tabs -->
-                <div class="tab-content">
-                    <!-- Tab - single -->
-                    <div role="tabpanel" class="tab-pane active fade in" id="membersAdvising">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <!-- Member -->
-                                <div class="member member-1">
-                                    <img src="assets/img/members/member01_v.jpg" alt="">
-                                    <div class="member-content">
-                                        <h5>Maria Kovalska</h5>
-                                        <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <!-- Member -->
-                                <div class="member member-1">
-                                    <img src="assets/img/members/member02_v.jpg" alt="">
-                                    <div class="member-content">
-                                        <h5>Thomas Novak</h5>
-                                        <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <!-- Member -->
-                                <div class="member member-1">
-                                    <img src="assets/img/members/member03_v.jpg" alt="">
-                                    <div class="member-content">
-                                        <h5>George Majka</h5>
-                                        <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Tab - single -->
-                    <div role="tabpanel" class="tab-pane fade" id="membersInvestments">
-                        <div class="row">
-                            <div class="col-md-4 col-md-push-2 col-sm-6">
-                                <!-- Member -->
-                                <div class="member member-1">
-                                    <img src="assets/img/members/member04_v.jpg" alt="">
-                                    <div class="member-content">
-                                        <h5>Maria Kovalska</h5>
-                                        <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-md-push-2 col-sm-6">
-                                <!-- Member -->
-                                <div class="member member-1">
-                                    <img src="assets/img/members/member05_v.jpg" alt="">
-                                    <div class="member-content">
-                                        <h5>Thomas Novak</h5>
-                                        <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Tab - single -->
-                    <div role="tabpanel" class="tab-pane fade" id="membersOthers">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <!-- Member -->
-                                <div class="member member-1">
-                                    <img src="assets/img/members/member06_v.jpg" alt="">
-                                    <div class="member-content">
-                                        <h5>Maria Kovalska</h5>
-                                        <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <!-- Member -->
-                                <div class="member member-1">
-                                    <img src="assets/img/members/member07_v.jpg" alt="">
-                                    <div class="member-content">
-                                        <h5>Thomas Novak</h5>
-                                        <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <!-- Member -->
-                                <div class="member member-1">
-                                    <img src="assets/img/members/member08_v.jpg" alt="">
-                                    <div class="member-content">
-                                        <h5>George Majka</h5>
-                                        <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-
-        </section>
-
-        <!-- Section -->
-        <section id="stats" class="cover protrude push-down-120">
-            <div class="container">
-                <h4 class="mb-60 text-center">Why Us?</h4>
-                <div class="row no-padding">
-                    <div class="col-sm-6">
-                        <!-- Counter -->
-                        <div class="counter counter-1 bg-primary dark">
-                            <div class="bg-image bg-multiply"><img src="assets/img/photos/consumer_counter01.jpg" alt=""></div>
-                            <div class="counter-content">
-                                <span class="number">+20.000</span>
-                                <h5 class="text-muted">Happy clients</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <!-- Counter -->
-                        <div class="counter counter-1 bg-secondary dark">
-                            <!-- BG Video -->
-                            <div class="bg-video bg-multiply" data-property="{videoURL:'https://www.youtube.com/watch?v=ig8JyJq1NjQ',showControls: false,containment:'self',startAt:1,stopAt:50,mute:true,autoPlay:true,loop:true,opacity:1}"></div>
-                            <div class="bg-video-placeholder bg-image bg-multiply"><img src="assets/img/photos/consumer_counter02.jpg" alt=""></div>
-                            <div class="counter-content">
-                                <span class="number">+400</span>
-                                <h5 class="text-muted">Finished Investments</h5>
-                            </div>
-                        </div>
-                    </div>            
-                </div>
-            </div>
-        </section>
-
-        <!-- Section -->
-        <section id="features" class="section-xs bg-light pt-190">
             
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2 col-md-3">
-                        <h4 class="mt-5">We <em>love</em> what we are doing!</h4>
+            <!-- Tabs -->
+            <div class="tab-content">
+                <!-- Tab - single -->
+                <div role="tabpanel" class="tab-pane active fade in" id="whoWeAre">
+                    <div class="image col-md-8 col-md-push-4">
+                        <div class="bg-image top"><img src="assets/img/photos/investments_bg04.jpg" alt=""></div>
                     </div>
-                    <div class="col-lg-push-1 col-md-3">
-                        <!-- Feature -->
-                        <div class="feature feature-2">
-                            <span class="icon icon-secondary icon-circle"><i class="pe-7s-cup"></i></span>
-                            <div class="feature-content">
-                                <h5>Professional Team</h5>
+
+                    <div class="content container">
+                        <div class="col-md-6 pt-0">
+                            <h2>We have <em>10 years</em> experience at investing!</h2>
+                            <p class="lead text-muted mb-50">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie, urna turpis tempor elit, in congue tellus lacus eget enim.</p>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="counter counter-3 animated" data-animation="fadeIn">
+                                        <span class="number text-primary">10</span>
+                                        <h5>Years of experience</h5>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="counter counter-3 animated" data-animation="fadeIn" data-animation-delay="200">
+                                        <span class="number text-primary">100k</span>
+                                        <h5>Happy Clients</h5>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-push-1 col-md-3">
-                        <!-- Feature -->
-                        <div class="feature feature-2">
-                            <span class="icon icon-primary icon-circle"><i class="pe-7s-graph1"></i></span>
-                            <div class="feature-content">
-                                <h5>10 years experience</h5>
+                </div>
+                <!-- Tab - single -->
+                <div role="tabpanel" class="tab-pane fade" id="ourHistory">
+                    <div class="image col-md-8 col-md-push-4">
+                        <div class="bg-image top"><img src="assets/img/photos/investments_bg05.jpg" alt=""></div>
+                    </div>
+
+                    <div class="content container">
+                        <div class="col-md-6 pt-0">
+                            <h2>We are <em>evloving</em> since 2001</h2>
+                            <p class="lead text-muted mb-50">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="counter counter-3 animated" data-animation="fadeIn">
+                                        <span class="number text-primary">2001</span>
+                                        <h5>First client</h5>
+                                    </div>
+                                    <!-- Feature -->
+                                    <div class="counter counter-3 animated" data-animation="fadeIn" data-animation-delay="200">
+                                        <span class="number text-primary">2008</span>
+                                        <h5>Business of the year</h5>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="counter counter-3 animated" data-animation="fadeIn" data-animation-delay="400">
+                                        <span class="number text-primary">2012</span>
+                                        <h5>"Best Investment" Award</h5>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-push-1 col-md-3">
-                        <!-- Feature -->
-                        <div class="feature feature-2">
-                            <span class="icon icon-secondary icon-circle"><i class="pe-7s-wallet"></i></span>
-                            <div class="feature-content">
-                                <h5>Low fees</h5>
+                </div>
+                <!-- Tab - single -->
+                <div role="tabpanel" class="tab-pane fade" id="ourMission">
+                    <div class="image col-md-8 col-md-push-4">
+                        <div class="bg-image top"><img src="assets/img/photos/investments_bg06.jpg" alt=""></div>
+                    </div>
+
+                    <div class="content container">
+                        <div class="col-md-6 pt-0">
+                            <h2>We are going to reach a <em>million</em> happy clients!</h2>
+                            <p class="lead text-muted mb-50">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie, urna turpis tempor elit, in congue tellus lacus eget enim.</p>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="feature feature-1 animated" data-animation="fadeIn">
+                                        <span class="icon icon-primary icon-sm"><i class="pe-7s-display1"></i></span>
+                                        <h6>Financial advising</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="feature feature-1 animated" data-animation="fadeIn" data-animation-delay="100">
+                                        <span class="icon icon-primary icon-sm"><i class="pe-7s-diamond"></i></span>
+                                        <h6>Stock Investments</h6>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -592,181 +492,212 @@
         </section>
 
         <!-- Section -->
-        <section id="clients" class="section-bg-edge left">
-            
-            <div class="image col-md-8">
-                <div class="bg-image"><img src="assets/img/photos/consumer_bg03.jpg" alt=""></div>
-            </div>
-
-            <div class="container">
-                <div class="col-lg-4 col-md-6 col-md-push-6">
-                    <h4 class="mb-60">What Clients say?</h4>
-
-                    <!-- Carousel -->
-                    <div class="carousel" data-single-item data-navigation data-pagination data-transition="fade" data-autoplay="8000">
-                        <!-- Slide -->
-                        <div>
-                            <h2><em>„I really like it!”</em></h2>
-                            <p class="lead text-muted">Vivamus laoreet, dolor et commodo molestie, urna turpis tempor elit, in congue tellus lacus eget enim.</p>
-                            <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et.</p>
-                            <h6>Piotr Osmola - the Inventor</h6>
-                            <img src="assets/img/svg/sign01.svg" alt="">
-                        </div>
-                        <!-- Slide -->
-                        <div>
-                            <h2><em>„We love them!”</em></h2>
-                            <p class="lead text-muted">Dolor et commodo molestie, urna turpis tempor elit, in congue tellu.</p>
-                            <p class="text-muted">Ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et.</p>
-                            <h6>Johnatan Doe - Sukces Ltd.</h6>
-                            <img src="assets/img/svg/sign02.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- Section -->
-        <section id="latest-posts">
-            
-            <div class="container">
-
-                <h4 class="text-center mb-60">Latest Posts</h4>
-
-                <!-- Post / Item -->
-                <article class="post post-wide animated" data-animation="fadeIn">
-                    <div class="post-image"><img src="assets/img/posts/post01.jpg" alt=""></div>
-                    <div class="post-content">
-                        <h4><a href="#">Could Brexit trigger European stock crash?</a></h4>
-                        <p>Nulla leo lectus, commodo porttitor lacus a, placerat facilisis ligula.</p>
-                        <ul class="post-meta">
-                            <li>24 July, 2016</li>
-                            <li>by Johnatan Doe</li>
-                        </ul>
-                    </div>
-                </article>
-
-                <!-- Post / Item -->
-                <article class="post post-wide animated" data-animation="fadeIn">
-                    <div class="post-image"><img src="assets/img/posts/post02.jpg" alt=""></div>
-                    <div class="post-content">
-                        <div>
-                            <h4><a href="#">7 cities that could steal business from London</a></h4>
-                            <p>Nulla leo lectus, commodo porttitor lacus a, placerat facilisis ligula.</p>
-                            <ul class="post-meta">
-                                <li>24 July, 2016</li>
-                                <li>by Johnatan Doe</li>
-                            </ul>
-                        </div>
-                    </div>
-                </article>
-
-            </div>
-
-        </section>
-
-        <!-- Section -->
-        <section class="section-xs bg-primary dark animated" data-animation="slideInUp">
+        <section class="section-xs bg-primary dark">
             <h5 class="text-center mb-0">Whould you like to use it with your next project? <a href="http://themeforest.net/user/suelo/portfolio?ref=suelo" target="_blank" class="link-underline">Click here</a> to buy it!</h5>
+        </section>
+
+        <!-- Section -->
+        <section id="cases">
+            
+            <div class="container">
+
+                <h4 class="text-center mb-60">Latest Investmets</h4>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- Image -->
+                        <div class="image-box image-hover text-center">
+                            <div class="image">
+                                <a href="assets/img/cases/case01.jpg" data-lightbox="gallery" data-title="Image Title"><img src="assets/img/cases/case01.jpg" alt=""></a>
+                            </div>
+                            <div class="title">
+                                <a href="#">
+                                    <h5 class="name">Social App</h5>
+                                    <span class="caption">Mobile App</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Image -->
+                        <div class="image-box image-hover text-center">
+                            <div class="image">
+                                <a href="assets/img/cases/case02.jpg" data-lightbox="gallery" data-title="Image Title"><img src="assets/img/cases/case02.jpg" alt=""></a>
+                            </div>
+                            <div class="title">
+                                <a href="#">
+                                    <h5 class="name">Stock Manager</h5>
+                                    <span class="caption">Mobile App</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Image -->
+                        <div class="image-box image-hover text-center">
+                            <div class="image">
+                                <a href="assets/img/cases/case03.jpg" data-lightbox="gallery" data-title="Image Title"><img src="assets/img/cases/case03.jpg" alt=""></a>
+                            </div>
+                            <div class="title">
+                                <a href="#">
+                                    <h5 class="name">Investments Feed</h5>
+                                    <span class="caption">Web Service</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#" class="btn-section-bottom"><span>Check more cases <i class="i-after ti-angle-right"></i></span></a>
+
+        </section>
+
+        <!-- Section -->
+        <section id="latest-posts" class="bg-grey">
+            
+            <div class="container">
+
+                <h4 class="text-center mb-60">Latest News</h4>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- Post / Item -->
+                        <article class="post post-masonry">
+                            <div class="post-image"><img src="assets/img/posts/post01.jpg" alt=""></div>
+                            <div class="post-content">
+                                <h4><a href="#">Could Brexit trigger European stock crash?</a></h4>
+                                <p>Nulla leo lectus, commodo porttitor lacus a, placerat facilisis ligula.</p>
+                                <ul class="post-meta">
+                                    <li>24 July, 2016</li>
+                                    <li>by Johnatan Doe</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Post / Item -->
+                        <article class="post post-masonry">
+                            <div class="post-image"><img src="assets/img/posts/post02.jpg" alt=""></div>
+                            <div class="post-content">
+                                <div>
+                                    <h4><a href="#">7 cities that could steal business from London</a></h4>
+                                    <p>Nulla leo lectus, commodo porttitor lacus a, placerat facilisis ligula.</p>
+                                    <ul class="post-meta">
+                                        <li>24 July, 2016</li>
+                                        <li>by Johnatan Doe</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Post / Item -->
+                        <article class="post post-masonry">
+                            <div class="post-image"><img src="assets/img/posts/post03.jpg" alt=""></div>
+                            <div class="post-content">
+                                <h4><a href="#"> Cisco bets big on 'Smart Cities'</a></h4>
+                                <p>Nulla leo lectus, commodo porttitor lacus a, placerat facilisis ligula.</p>
+                                <ul class="post-meta">
+                                    <li>24 July, 2016</li>
+                                    <li>by Johnatan Doe</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="#" class="btn btn-primary">Go to our Blog Page</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Section -->
+        <section class="section-xs bg-grey dark">
+            <div class="bg-image"><img src="assets/img/photos/investments_bg07.jpg" alt=""></div>
+            <h5 class="text-center mb-0">Love it as much as we do? <a href="http://themeforest.net/user/suelo/portfolio?ref=suelo" target="_blank" class="link-underline">Click here</a> to buy it!</h5>
         </section>
 
     </div>
     <!-- Content / End -->
 
     <!-- Footer -->
-    <footer id="footer" class="dark bg-dark">
+    <footer id="footer" class="footer-lg dark bg-dark">
         
         <div class="container">
             <div class="row">
 
                 <div class="col-md-3">
-                    <!-- Widget - Logo -->
-                    <div class="widget widget-logo text-center">
-                        <img class="logo logo-dark" width="111" src="assets/img/logo-light.png" alt="Okno">
+                    <h5 class="text-muted">About Us</h5>
+                    <img class="logo logo-dark mb-10" width="90" src="assets/img/logo-light.png" alt="Okno">
+                    <p class="lead">Hi, I’m „Zysk.” - business &amp; finance template based on Bootstrap 3 framework. </p>
+                    <p class="text-muted">Hi, I’m „Zysk.” - business & finance template based on Bootstrap 3 framework. </p>
+                    <h6>Piotr Osmola - the Inventor</h6>
+                    <img src="assets/img/svg/sign01.svg" alt="">
+                </div>
+
+                <div class="col-md-3">
+                    <!-- Widget - Recent posts -->
+                    <div class="widget widget-recent-posts">
+                        <h5 class="text-muted">Recent Posts</h5>
+                        <ul class="list-posts">
+                            <li>
+                                <a href="#">Crazy developer ideas on 2016</a>
+                                <span class="date">February 14, 2015</span>
+                            </li>
+                            <li>
+                                <a href="#">Our road trip to London!</a>
+                                <span class="date">February 14, 2015</span>
+                            </li>
+                            <li>
+                                <a href="#">New iOS design concept</a>
+                                <span class="date">February 14, 2015</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Widget - Newsletter -->
+                    <div class="widget widget-newsletter">
+                        <h5 class="text-muted">Subscribe Us</h5>
+                        <form action="//suelo.us12.list-manage.com/subscribe/post-json?u=ed47dbfe167d906f2bc46a01b&amp;id=24ac8a22ad" id="sign-up-form" class="sign-up-form validate-form" method="POST"
+                            data-message-error="Opps... Something went wrong - please try again later"
+                            data-message-success="Yeah! You will recieve a confirmation email soon..."
+                        >
+                            <div class="form-group">
+                                <input type="email"  name="EMAIL" id="mce-EMAIL" value="" class="form-control input-sm" placeholder="Your e-mail..." required>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn-submit btn-sm"><span>Sign Up</span><span class="loader-2"></span></button>
+                            </div>
+                        </form>
                     </div>
                 </div>
 
-                <div class="col-md-9">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h5 class="text-muted mb-0 mt-5">Follow Us</h5>
-                        </div>
-                        <div class="col-sm-6 text-right">
-                            <a href="#" class="icon icon-default icon-xs"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="icon icon-default icon-xs"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="icon icon-default icon-xs"><i class="fa fa-google-plus"></i></a>
-                        </div>
+                <div class="col-md-3">
+                    <!-- Widget - Twitter -->
+                    <div class="widget widget-twitter">
+                        <h5 class="text-muted">Latest Tweets</h5>
+                        <div class="twitter-feed" data-count="3"></div>
                     </div>
-                    <hr class="sep-line mt-40 mb-50">
-                    <div class="row">
+                </div>
 
-                        <div class="col-md-4">
-                            <!-- Widget - Recent posts -->
-                            <div class="widget widget-recent-posts">
-                                <h5 class="text-muted">Recent Posts</h5>
-                                <ul class="list-posts">
-                                    <li>
-                                        <a href="#">Crazy developer ideas on 2016</a>
-                                        <span class="date">February 14, 2015</span>
-                                    </li>
-                                    <li>
-                                        <a href="#">Our road trip to London!</a>
-                                        <span class="date">February 14, 2015</span>
-                                    </li>
-                                    <li>
-                                        <a href="#">New iOS design concept</a>
-                                        <span class="date">February 14, 2015</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- Widget - Instagram -->
-                            <div class="widget widget-instagram">
-                                <h5 class="text-muted">Instagram Feed</h5>
-                                <div id="instagram-feed" class="instagram-grid clearfix" data-limit="6"></div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <!-- Widget - Twitter -->
-                            <div class="widget widget-twitter">
-                                <h5 class="text-muted">Latest Tweets</h5>
-                                <div class="twitter-feed" data-count="3"></div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <!-- Widget - Newsletter -->
-                            <div class="widget widget-newsletter">
-                                <h5 class="text-muted">Subscribe Us</h5>
-                                <form action="//suelo.us12.list-manage.com/subscribe/post-json?u=ed47dbfe167d906f2bc46a01b&amp;id=24ac8a22ad" id="sign-up-form" class="sign-up-form validate-form" method="POST"
-                                    data-message-error="Opps... Something went wrong - please try again later"
-                                    data-message-success="Yeah! You will recieve a confirmation email soon..."
-                                >
-                                    <div class="form-group">
-                                        <input type="email"  name="EMAIL" id="mce-EMAIL" value="" class="form-control input-sm" placeholder="Your e-mail..." required>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn-submit btn-sm"><span>Sign Up</span><span class="loader-2"></span></button>
-                                    </div>
-                                </form>
-                                
-                            </div>
-                            <!-- Widget - Contact -->
-                            <div class="widget widget-contact">
-                                <h5 class="text-muted">Contact Us</h5>
-                                <img src="assets/img/photos/location_min.jpg" alt="" class="img-rounded mb-20">
-                                <address>
-                                    <span class="text-muted">Address:</span><br>
-                                    A795 Folsom Ave, Suite 600<br>
-                                    San Francisco, CA 94107<br><br>
-                                    <span class="text-muted">Phone:</span><br>
-                                    +48 221 909 99<br><br>
-                                    <span class="text-muted">E-mail:</span><br>
-                                    your.name@example.com<br>
-                                </address>
-                            </div>
-                        </div>
-
+                <div class="col-md-3">
+                    <!-- Widget - Contact -->
+                    <div class="widget widget-contact">
+                        <h5 class="text-muted">Contact Us</h5>
+                        <img src="assets/img/photos/location_min.jpg" alt="" class="img-rounded mb-20">
+                        <address>
+                            <span class="text-muted">Address:</span><br>
+                            A795 Folsom Ave, Suite 600<br>
+                            San Francisco, CA 94107<br><br>
+                            <span class="text-muted">Phone:</span><br>
+                            +48 221 909 99<br><br>
+                            <span class="text-muted">E-mail:</span><br>
+                            your.name@example.com<br>
+                        </address>
                     </div>
                 </div>
 
@@ -790,7 +721,7 @@
 <!-- Body Wrapper / End -->
 
 <!-- Search Popup -->
-<div id="search-popup" class="light">
+<div id="search-popup" class="dark">
     <form id="search-form" action="#">
         <input type="text" class="search-input" placeholder="What are you looking for?">
         <button type="submit" class="search-submit"><i class="ti-search"></i></button>
