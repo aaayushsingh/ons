@@ -1217,6 +1217,8 @@ section.point-up.bg-white:after, .section.point-up.bg-white:after, .section-imag
 .section-bg-edge.section-lg .container > div[class*="col-"], .section-image-edge.section-lg .section-bg-edge.content .container > div[class*="col-"] { padding-top: 160px; padding-bottom: 160px; }
 
 /* Section Bottom */
+.bottom-pad { margin-bottom: 100px; margin-top: 100px; padding: 400px 300px 420px;}
+.top-line-about { position: relative; text-align: center; display: block; border-top: 1px solid rgba(0, 0, 0, 0.1); padding: 40px 30px 42px; font-family: "Poppins", Helvetica, Arial, sans-serif; font-size: 13px; margin-bottom: 10px; margin-top: 10px; font-weight: 500; -moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 .btn-section-bottom { position: relative; text-align: center; display: block; border-top: 1px solid rgba(0, 0, 0, 0.1); padding: 40px 30px 42px; font-family: "Poppins", Helvetica, Arial, sans-serif; font-size: 13px; margin-bottom: -80px; margin-top: 80px; font-weight: 500; -moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 .btn-section-bottom:before { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #07a5ff; -moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; content: ' '; -moz-transform: translateY(100%); -ms-transform: translateY(100%); -webkit-transform: translateY(100%); transform: translateY(100%); z-index: 0; visibility: hidden; }
 .btn-section-bottom:hover { color: #fff; }
