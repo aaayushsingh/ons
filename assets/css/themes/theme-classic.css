@@ -623,6 +623,7 @@ body.body-padded #body-wrapper { position: relative; margin: 0 30px; overflow: h
 .h-lg { height: 80vh; }
 
 .fullheight { height: 100vh; }
+.height30 {height: 30vh; }
 
 .min-fullheight { min-height: 100vh; }
 
