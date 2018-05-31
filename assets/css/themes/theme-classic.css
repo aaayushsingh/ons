@@ -948,8 +948,8 @@ body.body-boxed #top-bar { -moz-border-radius: 5px 5px 0 0; -webkit-border-radiu
 .feature.bordered { padding: 30px; border: 1px solid rgba(0, 0, 0, 0.1); -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
 .feature.boxed { padding: 30px; background-color: #f8f8f8; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
 .feature.boxed.bg-white { background-color: #fff; }
-.feature.boxed.bg-dark { background-color: #1d1d1d; }
-.feature.boxed.bg-light { background-color: #f6f4f0; }
+.feature.boxed.bg-dark { background-color: #492243; }
+.feature.boxed.bg-light { background-color: #582a51; }
 .feature.boxed.feature-lg { padding: 70px 50px; }
 
 .dark .feature.bordered { border-color: rgba(255, 255, 255, 0.1); }
@@ -2035,10 +2035,10 @@ blockquote footer .content { display: inline-block; vertical-align: middle; }
 blockquote footer .content .name { font-size: 14px; font-family: "Poppins", Helvetica, Arial, sans-serif; font-weight: 500; }
 blockquote footer .content .caption { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; font-family: "Poppins", Helvetica, Arial, sans-serif; font-size: 13px; }
 
-.bg-light blockquote { background-color: #fff; }
+.bg-light blockquote { background-color: #eadcee; }
 
-.dark blockquote { background-color: rgba(29, 29, 29, 0.2); }
-.dark blockquote footer { color: #fff; }
+.dark blockquote { background-color: #eadcee; }
+.dark blockquote footer { color: #eadcee; }
 
 /* Sizes */
 .text-xs { font-size: 11px; }

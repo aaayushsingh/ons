@@ -947,8 +947,8 @@ body.body-boxed #top-bar { -moz-border-radius: 5px 5px 0 0; -webkit-border-radiu
 .feature.bordered { padding: 30px; border: 1px solid rgba(0, 0, 0, 0.1); -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
 .feature.boxed { padding: 30px; background-color: #f8f8f8; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
 .feature.boxed.bg-white { background-color: #fff; }
-.feature.boxed.bg-dark { background-color: #1d2224; }
-.feature.boxed.bg-light { background-color: #f3f8fa; }
+.feature.boxed.bg-dark { background-color: #492243; }
+.feature.boxed.bg-light { background-color: #582a51; }
 .feature.boxed.feature-lg { padding: 70px 50px; }
 
 .dark .feature.bordered { border-color: rgba(255, 255, 255, 0.1); }
